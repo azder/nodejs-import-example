@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-import-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#local/*": "./some/deeply/nested/*"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "azder <azhder@gmail.com>",
+  "license": "MIT"
+}
